@@ -25,3 +25,17 @@ This is how the commands ran on my computer.
 Here's how the commands ran on the remote computer.
 ![commands1](https://maotcha.github.io/cse15l-lab-reports/part3_2.png)
 
+## Moving Files with `scp`
+Did you know you can use the command `scp` to copy files from your computer to a remote computer? Cool right? In VSCode, create a new file called `WhereAmI.java` and past the following code into it:
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+Compile and run the file, then type this into the terminal: `scp WhereAmI.java cs15lwi22???@ieng6.ucsd.edu:~/`. Same deal as last time with the question marks. Enter your password, then try compiling and running the file, this time on the remote computer. If you've succeeded, your terminal should look similar to this by the end of all that.
+![SCP](https://maotcha.github.io/cse15l-lab-reports/part4.png)
