@@ -13,4 +13,15 @@ Now we can get to the fun (and headache-inducing) part! You'll need to first loo
 
 ![SSH](https://maotcha.github.io/cse15l-lab-reports/part2.png)
 
+## Trying Some Commands
+We can now try running some commands in our terminal. I ran the following commands on both my own computer and the remote one:
+* cd -> change directory
+* ls -a -> list all files in current directory
+* ls -lat -> lists all files in current directory and provides more information
+
+This is how the commands ran on my computer.
+![commands1](https://maotcha.github.io/cse15l-lab-reports/part3_1.png)
+
+Here's how the commands ran on the remote computer.
+![commands1](https://maotcha.github.io/cse15l-lab-reports/part3_2.png)
 
