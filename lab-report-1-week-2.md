@@ -37,5 +37,9 @@ class WhereAmI {
   }
 }
 ```
-Compile and run the file, then type this into the terminal: `scp WhereAmI.java cs15lwi22???@ieng6.ucsd.edu:~/`. Same deal as last time with the question marks. Enter your password, then try compiling and running the file, this time on the remote computer. If you've succeeded, your terminal should look similar to this by the end of all that.
+Compile and run the file, then type this into the terminal: `scp WhereAmI.java cs15lwi22???@ieng6.ucsd.edu:~/`. You know what to do with those question marks. Next, enter your password, then try compiling and running the file, this time on the remote computer. If you've succeeded, your terminal should look similar to this by the end of all that.
 ![SCP](https://maotcha.github.io/cse15l-lab-reports/part4.png)
+
+## Setting an SSH Key
+I don't know about you, but I'm neither good at remembering passwords nor patient enough to type them in a gazillion times every day. So yeah, let's set up a `ssh` key. Type `ssh-keygen` into your terminal, then hit enter thrice to skip all that stuff about where to save the key and passwords. Next, connect to the remote computer and type `mkdir ssh` into the terminal. Voila, you're all set! If you don't believe me, try logging out then logging back into the remote computer. You can check out the photo below to make sure you're doing everything correctly.
+![SSHKey](https://maotcha.github.io/cse15l-lab-reports/part5.png)
