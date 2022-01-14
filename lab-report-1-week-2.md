@@ -9,7 +9,7 @@ First things first, we need to install VSCode. Clink the [link](https://code.vis
 ![VSCode](https://maotcha.github.io/cse15l-lab-reports/part1.png)
 
 ## Remotely Connecting
-Now we can get to the fun (and headache-inducing) part! You'll need to first look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php). Make sure to set a password for that account! Next, open up a terminal using VSCode and type the following command: `ssh cs15lwi22???@ieng6.ucsd.edu`. Replace the three question marks with the letters in your account. After entering the password you set for your account your terminal should look similar to this.
+Now we can get to the fun part! You'll need to first look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php). Make sure to set a password for that account! Next, open up a terminal using VSCode and type the following command: `ssh cs15lwi22???@ieng6.ucsd.edu`. Replace the three question marks with the letters in your account. After entering the password you set for your account your terminal should look similar to this.
 
 ![SSH](https://maotcha.github.io/cse15l-lab-reports/part2.png)
 
@@ -44,13 +44,13 @@ Compile and run the file, then type this into the terminal: `scp WhereAmI.java c
 ![SCP](https://maotcha.github.io/cse15l-lab-reports/part4.png)
 
 ## Setting an SSH Key
-I don't know about you, but I'm neither good at remembering passwords nor patient enough to type them in a gazillion times every day. So yeah, let's set up a `ssh` key. Type `ssh-keygen` into your terminal, then hit enter thrice to skip all that stuff about where to save the key and passwords. Next, connect to the remote computer and type `mkdir ssh` into the terminal. Voila, you're all set! If you don't believe me, try logging out then logging back into the remote computer. You can check out the photo below to make sure you're doing everything correctly.
+I don't know about you, but I'm neither good at remembering passwords nor patient enough to type them in a gazillion times every day. So yeah, let's set up a `ssh` key. Type `ssh-keygen` into your terminal, then hit enter thrice to skip all that stuff about where to save the key and passwords. Next, connect to the remote computer and type `mkdir .ssh` into the terminal. Voila, you're all set! If you don't believe me, try logging out then logging back into the remote computer. You can check out the photo below to make sure you're doing everything correctly.
 
 ![SSHKey](https://maotcha.github.io/cse15l-lab-reports/part5.png)
 
 ## Optimizing Remote Running
-Want to know how to edit a file on your computer, copy it onto the remote computer, and run the file on said remote computer with only 10 mouseclicks/keystrokes. 
-1. After you've made your edits to WhereAmI.java, and compile and run it, press and hold the up-arrow on your keyboard. The terminal will start cycling through all your previous commands. Stop when you see the `scp WhereAmI.java cs15lwi22???@ieng6.ucsd.edu:~/` command you used to copy the WhereAmI.java file to the remote computer from part 4.
+Want to know how to edit a file on your computer, copy it onto the remote computer, and run the file on said remote computer with only 10 mouseclicks/keystrokes? Well today's your lucky day! 
+1. After you've made your edits to WhereAmI.java, and compile and run it, press and hold the up-arrow on your keyboard. The terminal will start cycling through all your previous commands. Stop when you see the `scp WhereAmI.java cs15lwi22???@ieng6.ucsd.edu:~/` command you used to in part 4 of this blog.
 2.  Hit enter
 3. Press and hold the up-arrow key until you get a `ssh cs15lwi22???@ieng6.ucsd.edu` command.
 4. Hit space
@@ -64,3 +64,7 @@ Want to know how to edit a file on your computer, copy it onto the remote comput
 Here's what my terminal (and yours) should look like after successfully following all the steps.
 
 ![optimizing](https://maotcha.github.io/cse15l-lab-reports/part6.png)
+
+
+
+[Return to the home page](https://maotcha.github.io/cse15l-lab-reports/)
