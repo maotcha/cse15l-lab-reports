@@ -10,8 +10,8 @@ Above are the changes I made to the code in response to a failure-inducing input
 
 ![symptom1](https://maotcha.github.io/cse15l-lab-reports/symptom1.png)
 
-The bug in my code was that when the program tried extracting a link from the string containing the contents of the entire file, it'd extract a substring starting from the index of the first open parantheses and ending at the index of the last parantheses in the string. Since my input for the program contained two links, instead of extracting two seperate links, the program instead extracted one string starting from the start of the first link and ending at the end of the second link. Thus, the program failed the JUnit test because the ArrayList contained `https://something.com)
-[another link!](some-page.html` instead of ``.
+The bug in my code was that when the program tried extracting a link from the string containing the contents of the entire file, it'd extract a substring starting from the index of the first open parantheses and ending at the index of the last parantheses in the string. Since my input for the program contained two links, instead of extracting two seperate links, the program extracted one string starting from the start of the first link and ending at the end of the second link. Thus, the program failed the JUnit test because the ArrayList contained `https://something.com)
+[another link!](some-page.html`, instead of `https://something.com` and `some-page.html`.
 
 ## Code Change 2
 
