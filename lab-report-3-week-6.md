@@ -10,7 +10,6 @@ This is my config file, and I'm using my MacBook's TextEdit program to edit it. 
 ## Using `ssh` with an Alias
 
 ![ssh](https://maotcha.github.io/cse15l-lab-reports/ssh.png)
-
 Here's an example of me connecting to my ieng6 account using the command `ssh cs15`. Oh man! So much faster than trying to remember and correctly type out my whole account!
 
 ## Using `scp` with an Alias
