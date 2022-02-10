@@ -9,4 +9,10 @@
 
 ![Image](https://th-thumbnailer.cdn-si-edu.com/ZUkkPQdCmXn_G3CTIxDD2-G0K0c=/fit-in/1072x0/filters:focal(1782x1645:1783x1646)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/9d/e2/9de20442-cd60-48c0-8f8f-5e816b374c04/parisian_lady_ch_5.jpg)
 
+## [Lab Report 3](https://maotcha.github.io/cse15l-lab-reports/lab-report-3-week-6s.html)
+
+
+![Image](https://i.pinimg.com/736x/ed/08/bf/ed08bf6bff9e2e870d96b976c23829c8.jpg)
+
+
 
