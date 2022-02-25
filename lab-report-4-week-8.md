@@ -34,7 +34,7 @@ For my program, I don't believe a small code change could make it work for snipp
 ## Snippet 2
 According to VScode preview, when `MarkdownParse.java` is run with the second snippet, the `ArrayList` returned from `getLinks()` should look like this: `[a.com, a.com(()), example.com]`.
 
-![snippet2 own test](https://maotcha.github.io/cse15l-lab-reports/snippet2_JUnit_own.png)
+![snippet2 own test](https://maotcha.github.io/cse15l-lab-reports/snippet2_JUnit_mine.png)
 
 Above is the test I wrote in `MarkdownParseTest.java` for my own program based on the expected output when using snippet 2. 
 
