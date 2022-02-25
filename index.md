@@ -14,5 +14,9 @@
 
 ![Image](https://th-thumbnailer.cdn-si-edu.com/o0c_RMQdbYWti4OLzjGboy8g1cM=/fit-in/1072x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/71/ee/71eeb32e-be6b-4d4c-890b-2add991b00d6/napoleon_ch_5.jpg)
 
+## [Lab Report 4](https://maotcha.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
+
+![Image](https://th-thumbnailer.cdn-si-edu.com/tH84fmwCY3YjxXGZfGy2MCJGcDg=/fit-in/1072x0/filters:focal(1885x1577:1886x1578)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/65/97/6597f09c-16da-411a-82c8-4cb4ffa7145c/cardinal_richelieu_ch_5.jpg)
 
 

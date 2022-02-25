@@ -7,7 +7,7 @@ Here is the [link](https://github.com/maotcha/markdown-parse) to my repository, 
 ## Snippet 1
 According to VScode preview, when `MarkdownParse.java` is run with the first snippet, the `ArrayList` returned from `getLinks()` should look like this: ```[`google.com, google.com, ucsd.edu]```.
 
-![snippet1 own test](https://maotcha.github.io/cse15l-lab-reports/snippet1_JUnit_own.png)
+![snippet1 own test](https://maotcha.github.io/cse15l-lab-reports/snippet1_JUnit_mine.png)
 
 Above is the test I wrote in `MarkdownParseTest.java` for my own program based on the expected output when using snippet 1. 
 
