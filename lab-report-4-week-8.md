@@ -84,6 +84,6 @@ It seems that the program got stuck in an infinite loop, which is why the result
 
 ![JUnit snippit 3 other test failure](https://maotcha.github.io/cse15l-lab-reports/snippet3_other_fail.png)
 
-[Return to the home page](https://maotcha.github.io/cse15l-lab-reports/)
-
 Surprise, surprise, I don't think a small code change through which my program could properly handle snippet 3 and all related cases is possible. This is mainly because my program splits the String containing the contents of a file by `\n` and stores them in an ArrayList. Thus, to handle newlines in brackets and parantheses, not only would I need to add code to check for empty lines within brackets or parantheses, but I'd also need to track brackets and parantheses across Strings in the ArrayList; I'd likely need to rewrite a good chunk of `getLinks()`. As such, between the new code additions and edits to old code, I think a lot more than ten lines would be needed to implement a solution to snippet 3 and all similar cases.
+
+[Return to the home page](https://maotcha.github.io/cse15l-lab-reports/)
