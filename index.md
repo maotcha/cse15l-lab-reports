@@ -16,7 +16,9 @@
 
 ## [Lab Report 4](https://maotcha.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
-
 ![Image](https://th-thumbnailer.cdn-si-edu.com/tH84fmwCY3YjxXGZfGy2MCJGcDg=/fit-in/1072x0/filters:focal(1885x1577:1886x1578)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/65/97/6597f09c-16da-411a-82c8-4cb4ffa7145c/cardinal_richelieu_ch_5.jpg)
 
+## [Lab Report 5](https://maotcha.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
+![Image](https://th-thumbnailer.cdn-si-edu.com/em0qjH8eQN3y96DWrmnqwtdE2_8=/fit-in/1072x0/filters:focal(2057x1748:2058x1749)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/76/2f/762f428e-d0f8-46a6-bdd0-e88536ba6f3c/roman_ch_3.jpg)
 
