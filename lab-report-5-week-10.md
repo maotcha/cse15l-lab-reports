@@ -1,4 +1,4 @@
-# Week 6 Lab Report
+# Week 10 Lab Report
 More bugs! Yay! It's week 10! Yay! I have finals on Saturday! Not yay!
 
 ## How I Found the Different Results
@@ -9,7 +9,7 @@ For test file 12, my `MarkdownParse.java` implementation produced `[\]`, while t
 
 ![change for test file 12](https://maotcha.github.io/cse15l-lab-reports/test-file-12-change.png)
 
-My code is shown above. The bug in this code is that the program never checks if the parantheses for a potential link come after the square brackets; text with this `()[]` format aren't valid links. To fix my code, I should change the highlighted area to find the index of the first open parantheses after the closed square bracket and the index of the first closed parantheses after the open parentheses. If I don't get -1 for either indexes, then I'd add the substring from between those indexes to my ArrayList of links.
+My code is shown above, and the relevant lines are highlighted. The bug in this code is that the program never checks if the parantheses for a potential link come after the square brackets; text with this `()[]` format aren't valid links. To fix my code, I would change the highlighted area to find the index of the first open parantheses after the closed square bracket and the index of the first closed parantheses after the open parentheses. If I don't get -1 for either indexes, then I'd add the substring from between those indexes to my ArrayList of links.
 
 ## Test File 14
 For test file 14, my `MarkdownParse.java` implementation produced `[]`, while the provided implementation produced `[/foo]`. This time, the provided implementation is wrong.
@@ -18,6 +18,6 @@ For test file 14, my `MarkdownParse.java` implementation produced `[]`, while th
 
 ![change 2 for test file 14](https://maotcha.github.io/cse15l-lab-reports/test-file-14-change-2.png)
 
-The relevant code from the provided implementation is shown above. The bug in this code is that the program never checks if there's a backslash at the start of a new line; in Markdown, `\` is used as an escape character. To fix the code, I would add an additional condition in both of the highlighted if statements that checks if there's a backslash before the open square bracket. 
+The relevant code from the provided implementation is shown above (highlighted). The bug in this code is that the program never checks if there's a backslash before the open square bracket; in Markdown, `\` is used as an escape character so if a backslash comes before the start of an open square bracket, the following text won't be considered a link even if it has the proper format. To fix the code, I would add an additional condition in both of the highlighted if statements that checks if there's a backslash before the open square bracket. 
 
 [Return to the home page](https://maotcha.github.io/cse15l-lab-reports/)
