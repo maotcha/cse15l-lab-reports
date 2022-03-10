@@ -2,7 +2,7 @@
 More bugs! Yay! It's week 10! Yay! I have finals on Saturday! Not yay!
 
 ## How I Found the Different Results
-To find tests that produced different results, I ran my own implementation of `MarkdownParse.java` and the version provided during Week 9's lab, saving the output from each in a file called `results.txt`. I then ran the command `diff markdown-parse/results.txt markdown-parse-1/results.txt`, which showed me which lines in both `results.txt` differed. From there, I picked two lines with different results and opened up the `results.txt` files to find the responsible test files.
+To find tests that produced different results, I ran my own implementation of `MarkdownParse.java` and the version provided during Week 9's lab using `bash script.sh > results.txt`, saving the output from each in a file called `results.txt`. I then ran the command `diff markdown-parse/results.txt markdown-parse-1/results.txt`, which showed me which lines in both `results.txt` differed. From there, I picked two lines with different results and opened up the `results.txt` files to find the responsible test files.
 
 ## Test File 12
 For test file 12, my `MarkdownParse.java` implementation produced `[\]`, while the provided implementation produced `[]`. Sadly, my implementation is wrong. 
